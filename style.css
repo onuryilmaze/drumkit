@@ -1,0 +1,83 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: block;
+    justify-content: center;
+    background-image: url(./media/drum.png);
+    background-size: auto;
+    background-position: center 150px;
+    background-repeat: no-repeat;
+    background-color: rgb(61, 112, 112);
+}
+
+header {
+    text-align: center;
+    font-size: 500px;
+}
+
+header h2 {
+    font-size: 80px;
+    font-weight: 600;
+}
+
+.column-left , .column-right {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 300px;;
+    background-color: black;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.column-left {
+    left: 0;
+    background-image: url(https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExY21qZXp3NDNuNzg4YnZ0b2ZmdTN5OXg0ZWQ4ZnJzbGk0Y3RtNGFjMiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/PqMTE3jpTKxXi/giphy.gif);
+    background-size: 300px 200px;
+}
+
+.column-right {
+    right: 0;
+    background-image: url(https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExY21qZXp3NDNuNzg4YnZ0b2ZmdTN5OXg0ZWQ4ZnJzbGk0Y3RtNGFjMiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/PqMTE3jpTKxXi/giphy.gif);
+    background-size: 300px 200px;
+}
+
+.container {
+    bottom: 0;
+    position: fixed;
+    margin-left: 20%;
+    margin-bottom: 100px;
+}
+
+ul {
+    list-style: none;
+    display: flexbox;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+ul li {
+    margin: 0 15px;
+    display: inline-block;
+    align-items: center;
+}
+
+ul li button {
+    text-decoration: none;
+    color: #5e4d75;
+    font-size: 18px;
+    padding: 10px;
+    width: 90px;
+    height: 80px;
+    border: 2px solid;
+    border-radius: 50px;
+    
+}
+
+ul li button :hover {
+    color: black;
+}
